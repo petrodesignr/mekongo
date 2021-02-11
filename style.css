@@ -22,6 +22,7 @@ header
 {
     display: flex;
     position: fixed;
+    box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
     background-color: #24252a;
@@ -100,6 +101,7 @@ button:hover
     background-attachment: fixed;
     text-align: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .Dscp
@@ -135,13 +137,16 @@ align-items: center;
     justify-content: center;
     font-family: 'Montserrat';
     width: 75%;
-    margin: 8% 13%;
+    margin: 0% 13%;
     text-align: center;
+    box-sizing: border-box;
+    padding: 50px 5% 0px 5%;
 }
 
 .descp h2
 {
     margin-bottom: 2%;
+    margin-top: 5%;
 }
 
 .descp p
@@ -166,11 +171,14 @@ align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     background: white;
-    height: 400px;
+    height: auto;
     text-align: center;
     justify-content: center;
     align-content: center;
     flex-wrap: nowrap;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 50px 0% 0px 0%;
 }
 
 .div2 h2
@@ -178,6 +186,7 @@ align-items: center;
     font-family: "Montserrat",
     sans-serif;
         color:rgba(0, 136, 169, 1);
+        margin-top: 1.5%;
 }
 
 .equipe
@@ -586,6 +595,8 @@ form {
     text-align: center;
     color: white;
     flex-wrap: nowrap;
+    box-sizing: border-box;
+    padding: 50px 5% 0px 5%;
 }
 
 .div3 h2
@@ -888,10 +899,12 @@ form {
 
 
 .div4 {
-    height: 650px;
+    height: auto;
     background: aquamarine;
     text-align: center;
     flex-wrap: nowrap;
+    box-sizing: border-box;
+    padding: 50px 5% 0px 5%;
 }
 
 .div4 h2
@@ -899,7 +912,7 @@ form {
     font-family: "Montserrat",
     sans-serif;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .div4 h1
@@ -912,17 +925,16 @@ form {
 {
     display: flex;
     flex-direction: row;
-    margin: 5%;
+    margin: 1%;
     justify-content:space-evenly;
-    padding: 0 0 10%;
 }
 
 .cc
 {
     display: flex;
     flex-direction: column;
-    width: 2800px;
-    height: 310px;
+    width: 100%;
+    height: 100%;
     border: 1px black solid;
     margin: 0 0 20px;
 }
@@ -954,10 +966,11 @@ form {
 {
     display: flex;
     flex-direction: column;
-    width: 2800px;
-    height: 390px;
+    width: 100%;
+    height: 100%;
     border: 1px black solid;
     margin: 0 0 0 50px;
+    padding-bottom: 10px;
 }
 
 .cp h4
@@ -988,15 +1001,17 @@ form {
 /*Gallerie*/
 
 .div5 {
-    height: 600px;
+    height: 100%;
     text-align: center;
+    box-sizing: border-box;
+    padding: 50px 5% 0px 5%;
 }
 
 .div5 h2
 {
     font-family: "Montserrat",
     sans-serif;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 10px;
 }
 
@@ -1208,14 +1223,16 @@ form {
 
 .div6
 {
-    height: 570px;
+    height: 100%;
     text-align: center;
-        background-image: url(pic_5.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        text-align: center;
-        color: white;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+    background-image: url(pic_5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+    box-sizing: border-box;
+    padding: 50px 5% 0px 5%;
 }
 
 
@@ -1223,7 +1240,7 @@ form {
 {
     font-family: "Montserrat",
     sans-serif;
-    margin-top: 35px;
+    margin-top: 0px;
     font-size: 30px;
 }
 
@@ -1239,7 +1256,7 @@ form {
 {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 10px;
     flex-direction: column;
     padding: 10px;
 }
@@ -1269,7 +1286,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
@@ -1304,7 +1321,9 @@ form {
 header
 {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+    box-sizing: border-box;
 }
 .nav-links li
 {
@@ -1314,7 +1333,7 @@ header
     justify-content: space-between;
     align-items: stretch;
     text-align: center;
-    margin: 10% 0;
+    margin: 3% 0;
 }
 
 
@@ -1332,6 +1351,277 @@ header
 {
     display: block;
 }
+.logo
+{
+    display: flex;
+    align-self: center;
+    margin-top: 10px;
+}
+.logo a
+{
+    text-align: center;
+}
+
+.cta
+{
+    margin: 10px;
+}
+
+.div1
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.div1 img
+{
+    margin-top: 20%;
+}
+.Dscp
+{
+    margin-top: 2%;
+    margin-right: 15%;
+    width: auto;
+    box-sizing: border-box;
+    padding: 0px 5% 0px 5%;
+}
+
+.descp
+{
+    box-sizing: border-box;
+    padding: 30% 5% 0px 5%;
+}
+
+.div2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 32% 5% 0px 5%;
+}
+
+.equipe
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.luke
+{
+    width: 100%;
+    height: 100%;
+}
+
+.lukeBox
+{
+    transition: 0s;
+    margin-top: 1%;
+}
+.luke:hover .lukeBox
+{
+    margin-top: 1%;
+}
+
+.annie {
+    width: 100%;
+    height: 100%;
+}
+
+.annieBox {
+    transition: 0s;
+    margin-top: 1%;
+}
+
+.annie:hover .annieBox {
+    margin-top: 1%;
+}
+
+.aissata {
+    width: 100%;
+    height: 100%;
+}
+
+.aissataBox {
+    transition: 0s;
+    margin-top: 1%;
+}
+
+.aissata:hover .aissataBox {
+    margin-top: 1%;
+}
+
+.philipe {
+    width: 100%;
+    height: 100%;
+}
+
+.philipeBox {
+    transition: 0s;
+    margin-top: 1%;
+}
+
+.philipe:hover .philipeBox {
+    margin-top: 1%;
+}
+
+.xavier {
+    width: 100%;
+    height: 100%;
+}
+
+.xavierBox {
+    transition: 0s;
+    margin-top: 1%;
+}
+
+.xavier:hover .xavierBox {
+    margin-top: 1%;
+}
+
+.div3
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32% 5% 0px 5%;
+}
+
+.pjt1_content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.pjt1_2
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pjt1_2 .content
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pjt1_2 .content h6
+{
+    width: 90%;
+}
+
+.pjt1_2_3
+{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.pjt1_3
+{
+    width: 90%;
+}
+
+.pjt1_1
+{
+    width: 90%;
+    height: 100%;
+}
+
+.pjt1_1 h6
+{
+    width: 100%;
+}
+
+.div4
+{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32% 5% 0px 5%;
+}
+
+.cours
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 0%;
+}
+
+.cp
+{
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+.div5
+{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32% 5% 0px 5%;
+}
+
+.container
+{
+    width: 100%;
+    margin: 0%;
+}
+
+.row
+{
+    display: none;
+}
+
+.caption-container
+{
+        text-align: center;
+        background-color: #ffffff;
+        padding: 2px 16px;
+        color: white;
+        margin-top: 20%;
+}
+
+.div6
+{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32% 5% 0px 5%;
+
+}
+
+.ct2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.ct2_2
+{
+    margin-top: 10%;
+}
+
+.btn1
+{
+    margin-top: 5%;
+}
+
+
+
+
+
+
 }
 
 
