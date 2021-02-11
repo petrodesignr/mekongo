@@ -1317,7 +1317,7 @@ form {
     color: black;
 }
 
-@media(max-width: 786px) {
+@media only screen and (max-device-width: 480px) {
 header
 {
     display: flex;
