@@ -1902,43 +1902,63 @@ form {
         flex-direction: column;
     }
 
+    .ct1
+    {
+        width: 80%;
+        align-self: center;
+    }
+
     .ct1 h3
     {
         font-size: 15px;
+        align-self: center;
     }
 
+    .ct1 :nth-child(2)
+    {
+        font-size: 10px;
+        align-self: center;
+    }
     .ct1 p
     {
         font-size: 15px;
+        align-self: center;
     }
 
     .ct1 a
     {
         font-size: 15px;
+        align-self: center;
     }
 
     .ct2_1 h3 {
         font-size: 15px;
+        align-self: center;
     }
 
     .ct2_1 p {
         font-size: 15px;
+        align-self: center;
     }
 
     .ct2_1 a {
         font-size: 15px;
+        align-self: center;
     }
 
     .ct2_2 h3 {
         font-size: 15px;
+        align-self: center;
     }
 
     .ct2_2 p {
         font-size: 15px;
+        align-self: center;
     }
 
     .ct2_2 a {
         font-size: 15px;
+        align-self: center;
     }
 
     .ct2 {
@@ -1948,8 +1968,16 @@ form {
         margin-top: 5%;
     }
 
+    .ct2_1
+    {
+        width: 80%;
+        align-self: center;
+    }
+
     .ct2_2 {
         margin-top: 10%;
+        width: 80%;
+        align-self: center;
     }
 
     .btn1 {
