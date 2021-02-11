@@ -922,7 +922,7 @@ width: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 700px;
+	height: 100%;
 	background-color: #F4F7FF;
 	margin: 1% 0px;
 	box-sizing: border-box;

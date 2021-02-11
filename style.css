@@ -1317,38 +1317,40 @@ form {
     color: black;
 }
 
-@media (max-width:1111px)
+@media (min-width:1025px)
 {
     header {
         display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+        position: fixed;
         box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #24252a;
+        padding: 0px 0%;
+        left: 0;
+        top: 0;
+        right: 0;
+        flex-wrap: wrap;
     }
 
     .nav-links li {
-        display: flex;
         align-items: center;
-        flex-direction: column;
         justify-content: space-between;
         align-items: stretch;
         text-align: center;
-        margin: 3% 0;
+        display: inline-block;
+        padding: 0px 15px;
     }
 
 
     .nav-links {
         width: 100%;
-        display: none;
+        display: flex;
     }
 
     .nav-links.show {
         display: flex;
         flex-direction: column;
-    }
-
-    .menu-icon {
-        display: block;
     }
 
     .logo {
@@ -1614,43 +1616,41 @@ form {
         margin-top: 5%;
     }
 }
-@media (max-width: 870px)
+@media (min-width:801px) 
 {
     header {
         display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+        position: fixed;
         box-sizing: border-box;
-    }
-
-    .logo img {
-        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #24252a;
+        padding: 0px 0%;
+        left: 0;
+        top: 0;
+        right: 0;
+        flex-wrap: wrap;
     }
 
     .nav-links li {
         display: flex;
-        position: relative;
         align-items: center;
-        flex-direction: column;
         justify-content: space-between;
         align-items: stretch;
         text-align: center;
-        margin: 3% 0;
+        padding: 0px 8px;
     }
 
 
     .nav-links {
         width: 100%;
-        display: none;
+        display: flex;
+        justify-content: center;
     }
 
     .nav-links.show {
         display: flex;
         flex-direction: column;
-    }
-
-    .menu-icon {
-        display: block;
     }
 
     .logo {
@@ -1674,30 +1674,16 @@ form {
         box-sizing: border-box;
     }
 
-    .div1 img {
-        margin-top: 20%;
-        padding: 0%;
-    }
 
     .Dscp {
-        margin: 0% 2%;
+        margin-right: 15%;
         width: auto;
         box-sizing: border-box;
-        padding: 0px 1% 0px 1%;
-    }
-
-    .Dscp span {
-        font-size: 18px;
-    }
-
-    .btn1
-    {
-        margin-bottom: .5%;
     }
 
     .descp {
         box-sizing: border-box;
-        padding: 50% 5% 0px 5%;
+        padding: 5% 5% 0px 5%;
     }
 
     .div2 {
@@ -1705,7 +1691,7 @@ form {
         flex-direction: column;
         justify-content: center;
         box-sizing: border-box;
-        padding: 50% 5% 0px 5%;
+        padding: 8% 5% 0px 5%;
     }
 
     .equipe {
@@ -1716,12 +1702,8 @@ form {
     }
 
     .luke {
-        width: 100%;
+        width: 60%;
         height: 100%;
-    }
-
-    .luke img {
-        width: 100%;
     }
 
     .lukeBox {
@@ -1733,12 +1715,18 @@ form {
         margin-top: 1%;
     }
 
-    .annie {
+    .luke img 
+    {
         width: 100%;
+    }
+
+    .annie {
+        width: 60%;
         height: 100%;
     }
 
-    .annie img {
+    .annie img 
+    {
         width: 100%;
     }
 
@@ -1752,11 +1740,12 @@ form {
     }
 
     .aissata {
-        width: 100%;
+        width: 60%;
         height: 100%;
     }
 
-    .aissata img {
+    .aissata img 
+    {
         width: 100%;
     }
 
@@ -1770,11 +1759,12 @@ form {
     }
 
     .philipe {
-        width: 100%;
+        width: 60%;
         height: 100%;
     }
 
-    .philipe img {
+    .philipe img 
+    {
         width: 100%;
     }
 
@@ -1788,11 +1778,12 @@ form {
     }
 
     .xavier {
-        width: 100%;
+        width: 60%;
         height: 100%;
     }
 
-    .xavier img {
+    .xavier img 
+    {
         width: 100%;
     }
 
@@ -1810,11 +1801,7 @@ form {
         justify-content: center;
         flex-direction: column;
         box-sizing: border-box;
-        padding: 50% 5% 0px 5%;
-    }
-
-    .div3 h2 {
-        color: rgba(0, 136, 169, 1);
+        padding: 6% 5% 0px 5%;
     }
 
     .pjt1_content {
@@ -1823,16 +1810,17 @@ form {
         justify-content: center;
     }
 
-
     .pjt1_2 {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         height: 100%;
     }
 
     .pjt1_2 .content {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         height: 100%;
     }
 
@@ -1855,7 +1843,6 @@ form {
     .pjt1_3 {
         align-self: center;
         width: 90%;
-        height: auto;
     }
 
     .pjt1_1 {
@@ -1873,21 +1860,6 @@ form {
         height: auto;
     }
 
-    .pjt1_main {
-        width: 100%;
-        margin-left: 0px;
-    }
-
-    .pjt2_main {
-        width: 100%;
-        margin-left: 0px;
-    }
-
-    .pjt3_main {
-        width: 100%;
-        margin-left: 0px;
-    }
-
     .pjt2_1 {
         height: 100%;
     }
@@ -1900,7 +1872,7 @@ form {
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        padding: 50% 5% 0px 5%;
+        padding: 7% 5% 0px 5%;
     }
 
     .cours {
@@ -1920,17 +1892,12 @@ form {
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        padding: 50% 5% 0px 5%;
-        width: 100%;
+        padding: 7% 5% 0px 5%;
     }
 
     .container {
         width: 100%;
         margin: 0%;
-    }
-
-    .np {
-        margin: 0% 30%;
     }
 
     .row {
@@ -1942,75 +1909,15 @@ form {
         background-color: #ffffff;
         padding: 2px 16px;
         color: white;
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
     .div6 {
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        padding: 50% 5% 0px 5%;
-    }
+        padding: 8% 5% 0px 5%;
 
-    .contact {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .ct1 {
-        width: 80%;
-        align-self: center;
-    }
-
-    .ct1 h3 {
-        font-size: 15px;
-        align-self: center;
-    }
-
-    .ct1 :nth-child(2) {
-        font-size: 10px;
-        align-self: center;
-    }
-
-    .ct1 p {
-        font-size: 15px;
-        align-self: center;
-    }
-
-    .ct1 a {
-        font-size: 15px;
-        align-self: center;
-    }
-
-    .ct2_1 h3 {
-        font-size: 15px;
-        align-self: center;
-    }
-
-    .ct2_1 p {
-        font-size: 15px;
-        align-self: center;
-    }
-
-    .ct2_1 a {
-        font-size: 15px;
-        align-self: center;
-    }
-
-    .ct2_2 h3 {
-        font-size: 15px;
-        align-self: center;
-    }
-
-    .ct2_2 p {
-        font-size: 15px;
-        align-self: center;
-    }
-
-    .ct2_2 a {
-        font-size: 15px;
-        align-self: center;
     }
 
     .ct2 {
@@ -2020,22 +1927,16 @@ form {
         margin-top: 5%;
     }
 
-    .ct2_1 {
-        width: 80%;
-        align-self: center;
-    }
-
     .ct2_2 {
         margin-top: 10%;
-        width: 80%;
-        align-self: center;
     }
 
     .btn1 {
         margin-top: 5%;
     }
 }
-@media (max-width:450px)
+
+@media (max-width:480px)
 {
     header {
         display: flex;

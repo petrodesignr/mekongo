@@ -405,7 +405,109 @@
 		<div class="v-collab">
 			 <video src="./images/collab.mp4" width="720" controls></video>
 		</div>
-		
+			<!-- gallery-->
+			<div class="gallery">
+				<div class="gal">
+					<div class="gal_img">
+						<div class="gal_1" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"></div>
+
+					</div>
+					<div class="gal_img">
+						<div class="gal_2" onclick="openModal();currentSlide(2)" class="hover-shadow cursor"></div>
+
+					</div>
+					<div class="gal_img">
+						<div class="gal_3" onclick="openModal();currentSlide(3)" class="hover-shadow cursor"></div>
+
+					</div>
+					<div class="gal_img">
+						<div class="gal_4" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"></div>
+
+					</div>
+					<div class="gal_img">
+						<div class="gal_5" onclick="openModal();currentSlide(5)" class="hover-shadow cursor"></div>
+
+					</div>
+					<div class="gal_img">
+						<div class="gal_6" onclick="openModal();currentSlide(6)" class="hover-shadow cursor"></div>
+
+					</div>
+				</div>
+			</div>
+
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+
+				<div class="modal-content">
+
+					<div class="mySlides">
+						<div class="numbertext">1 / 6</div>
+						<img src="./images/gal/pic_1.jpg" style="height: 70%" width="100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">2 / 6</div>
+						<img src="./images/gal/pic_2.jpg" style="height: 70%" width="100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">3 / 6</div>
+						<img src="./images/gal/pic_3.jpg" style="height: 70%" width="100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">4 / 6</div>
+						<img src="./images/gal/pic_4.jpg" style="height: 70%" width="100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">5 / 6</div>
+						<img src="./images/gal/pic_5.jpg" style="height: 70%" width="100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">6 / 6</div>
+						<img src="./images/gal/pic_6.jpg" style="height: 70%" width="100%">
+					</div>
+
+
+
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+
+					<div class="btm">
+						<div class="column">
+							<img class="demo cursor" src="./images/gal/pic_1.jpg" style="width:100%" onclick="currentSlide(1)"
+								alt="">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/gal/pic_2.jpg" style="width:100%" onclick="currentSlide(2)"
+								alt="">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/gal/pic_3.jpg" style="width:100%" onclick="currentSlide(3)"
+								alt="">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/gal/pic_4.jpg" style="width:100%" onclick="currentSlide(4)"
+								alt="">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/gal/pic_5.jpg" style="width:100%" onclick="currentSlide(5)"
+								alt="">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/gal/pic_6.jpg" style="width:100%" onclick="currentSlide(6)"
+								alt="">
+						</div>
+					</div>
+				</div>
+			</div>
 
 	</section>
 
